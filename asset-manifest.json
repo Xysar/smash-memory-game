@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smash-memory-game/static/css/main.f4d19d94.css",
+    "main.js": "/smash-memory-game/static/js/main.da34241e.js",
+    "index.html": "/smash-memory-game/index.html",
+    "main.f4d19d94.css.map": "/smash-memory-game/static/css/main.f4d19d94.css.map",
+    "main.da34241e.js.map": "/smash-memory-game/static/js/main.da34241e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4d19d94.css",
+    "static/js/main.da34241e.js"
+  ]
+}
