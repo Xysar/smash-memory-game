@@ -60,7 +60,7 @@ function Game({ portraits }) {
   };
 
   return (
-    <div>
+    <div id="container">
       <ScoreBoard currentScore={currentScore} highScore={highScore} />
       <Cards portraits={portraits} order={order} onClick={cardClicked} />
     </div>
