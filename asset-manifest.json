@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smash-memory-game/static/css/main.f4d19d94.css",
-    "main.js": "/smash-memory-game/static/js/main.da34241e.js",
+    "main.css": "/smash-memory-game/static/css/main.98df2616.css",
+    "main.js": "/smash-memory-game/static/js/main.f5b8ae06.js",
     "index.html": "/smash-memory-game/index.html",
-    "main.f4d19d94.css.map": "/smash-memory-game/static/css/main.f4d19d94.css.map",
-    "main.da34241e.js.map": "/smash-memory-game/static/js/main.da34241e.js.map"
+    "main.98df2616.css.map": "/smash-memory-game/static/css/main.98df2616.css.map",
+    "main.f5b8ae06.js.map": "/smash-memory-game/static/js/main.f5b8ae06.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4d19d94.css",
-    "static/js/main.da34241e.js"
+    "static/css/main.98df2616.css",
+    "static/js/main.f5b8ae06.js"
   ]
 }
