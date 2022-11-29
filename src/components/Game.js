@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ScoreBoard from "./ScoreBoard";
 import Cards from "./Cards";
+import Tutorial from "./Tutorial";
 import "../style.css";
 
 function Game({ portraits }) {
@@ -61,7 +62,11 @@ function Game({ portraits }) {
 
   return (
     <div id="container">
-      <ScoreBoard currentScore={currentScore} highScore={highScore} />
+      <div id="header">
+        <div></div>
+        <ScoreBoard currentScore={currentScore} highScore={highScore} />
+        <Tutorial />
+      </div>
       <Cards portraits={portraits} order={order} onClick={cardClicked} />
     </div>
   );

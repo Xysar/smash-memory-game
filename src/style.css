@@ -1,12 +1,42 @@
-img {
-}
-
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url("./images/smash-ball.png");
   background-repeat: no-repeat;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+#tooltip-container {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  justify-content: center;
+}
+
+#tip-button {
+  font-size: 45px;
+  size: 50px;
+}
+#tooltip {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.9);
 }
 .cards-container {
   display: flex;
@@ -19,6 +49,11 @@ img {
   flex: 1 0 90px;
   cursor: pointer;
   max-width: 90px;
+  transition: 0.25s;
+}
+
+.card:hover {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .scoreboard {
